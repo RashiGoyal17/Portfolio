@@ -32,6 +32,7 @@ export interface EducationItem {
   years: string;
   gpa: string;
   detail: string;
+  highlights?: string[];
 }
 
 export interface SkillGroup {
@@ -45,6 +46,8 @@ export interface SocialLinks {
   github: string;
   email: string;
   phone: string;
+  leetcode?: string;
+  atcoder?: string;
 }
 
 export interface PortfolioContent {

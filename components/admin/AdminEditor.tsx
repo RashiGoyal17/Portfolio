@@ -117,6 +117,8 @@ export default function AdminEditor({ initialContent }: { initialContent: Portfo
         <Field label="Phone" value={content.social.phone} onChange={(v) => setContent({ ...content, social: { ...content.social, phone: v } })} />
         <Field label="LinkedIn URL" value={content.social.linkedin} onChange={(v) => setContent({ ...content, social: { ...content.social, linkedin: v } })} />
         <Field label="GitHub URL" value={content.social.github} onChange={(v) => setContent({ ...content, social: { ...content.social, github: v } })} />
+        <Field label="LeetCode URL" value={content.social.leetcode ?? ""} onChange={(v) => setContent({ ...content, social: { ...content.social, leetcode: v } })} />
+        <Field label="AtCoder URL" value={content.social.atcoder ?? ""} onChange={(v) => setContent({ ...content, social: { ...content.social, atcoder: v } })} />
       </section>
 
       {/* Experience */}
@@ -292,6 +294,9 @@ export default function AdminEditor({ initialContent }: { initialContent: Portfo
             }} />
             <Field label="GPA" value={e.gpa} onChange={(v) => {
               const next = [...content.education]; next[i] = { ...e, gpa: v }; setContent({ ...content, education: next });
+            }} />
+            <Field label="Highlights (comma separated, e.g. exam scores)" value={(e.highlights ?? []).join(", ")} onChange={(v) => {
+              const next = [...content.education]; next[i] = { ...e, highlights: v.split(",").map((t) => t.trim()).filter(Boolean) }; setContent({ ...content, education: next });
             }} />
           </Card>
         ))}

@@ -15,6 +15,18 @@ export default function Education({ content }: { content: PortfolioContent }) {
               </div>
               <p className="mt-1 text-sm text-accent">{edu.degree}</p>
               <p className="mt-2 text-sm text-muted">CGPA: {edu.gpa}</p>
+              {edu.highlights && edu.highlights.length > 0 && (
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {edu.highlights.map((h) => (
+                    <span
+                      key={h}
+                      className="rounded-full border border-border bg-background px-3 py-1 font-mono text-xs text-muted"
+                    >
+                      {h}
+                    </span>
+                  ))}
+                </div>
+              )}
             </div>
           ))}
         </div>

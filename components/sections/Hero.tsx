@@ -48,6 +48,26 @@ export default function Hero({ content }: { content: PortfolioContent }) {
           >
             LinkedIn
           </a>
+          {content.social.leetcode && (
+            <a
+              href={content.social.leetcode}
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-lg border border-border px-5 py-3 text-sm font-semibold hover:border-accent transition-colors"
+            >
+              LeetCode
+            </a>
+          )}
+          {content.social.atcoder && (
+            <a
+              href={content.social.atcoder}
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-lg border border-border px-5 py-3 text-sm font-semibold hover:border-accent transition-colors"
+            >
+              AtCoder
+            </a>
+          )}
         </div>
       </div>
     </section>

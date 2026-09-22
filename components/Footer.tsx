@@ -17,6 +17,16 @@ export default function Footer({ content }: { content: PortfolioContent }) {
           <a href={content.social.github} className="hover:text-foreground">
             GitHub
           </a>
+          {content.social.leetcode && (
+            <a href={content.social.leetcode} className="hover:text-foreground">
+              LeetCode
+            </a>
+          )}
+          {content.social.atcoder && (
+            <a href={content.social.atcoder} className="hover:text-foreground">
+              AtCoder
+            </a>
+          )}
         </div>
       </div>
     </footer>

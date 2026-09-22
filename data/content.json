@@ -8,7 +8,9 @@
     "linkedin": "#",
     "github": "#",
     "email": "rashiwork17@gmail.com",
-    "phone": "+91 8302741699"
+    "phone": "+91 8302741699",
+    "leetcode": "https://leetcode.com/u/PdpGfxDmy3/",
+    "atcoder": "https://atcoder.jp/users/Beginner_17"
   },
   "experience": [
     {
@@ -139,7 +141,12 @@
       "degree": "Integrated Master's + Bachelor's in Geophysics, Micro-Specialization in AI & Machine Learning (NLP, Deep Learning, Statistics for ML)",
       "years": "2020 – 2025",
       "gpa": "8.36 / 10.0",
-      "detail": "Micro-Specialization: Artificial Intelligence & Machine Learning (NLP, Deep Learning, Statistics for ML)"
+      "detail": "Micro-Specialization: Artificial Intelligence & Machine Learning (NLP, Deep Learning, Statistics for ML)",
+      "highlights": [
+        "JEE Advanced: AIR ~10,000 (Top 5%)",
+        "JEE Mains: AIR ~30,000",
+        "BITSAT: 390 / 450"
+      ]
     }
   ],
   "skills": [
