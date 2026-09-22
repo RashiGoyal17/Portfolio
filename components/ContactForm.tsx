@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState, type FormEvent } from "react";
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -49,7 +50,22 @@ export default function ContactForm() {
   if (status === "sent") {
     return (
       <div className="rounded-xl border border-accent bg-card p-6 text-sm">
-        Thanks for reaching out! Your message has been sent.
+        <p>Thanks for reaching out! Your message has been sent.</p>
+        <div className="mt-5 flex flex-wrap gap-3">
+          <button
+            type="button"
+            onClick={() => {
+              setStatus("idle");
+              setError("");
+            }}
+            className="btn btn-solid rounded-lg px-5 py-2.5 text-sm font-semibold"
+          >
+            Send Another Message
+          </button>
+          <Link href="/" className="btn btn-outline rounded-lg px-5 py-2.5 text-sm font-semibold">
+            Back to Home
+          </Link>
+        </div>
       </div>
     );
   }
