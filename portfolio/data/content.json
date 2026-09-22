@@ -1,0 +1,167 @@
+{
+  "name": "Rashi Goyal",
+  "title": "Associate AI Engineer",
+  "tagline": "Building end-to-end AI systems and production-grade software architectures.",
+  "location": "Hyderabad, India",
+  "summary": "Associate AI Engineer with a Master's from IIT Kharagpur, specializing in AI/ML and production-grade software architectures. Backed by professional experience building end-to-end AI systems, deploying cloud-native architectures (AWS Bedrock), and optimizing relational/vector database pipelines. Two-time National Hackathon Winner with strong foundations in Data Structures and Algorithms (C++) and international research exposure. Proven ability to deliver scalable, client-ready software within fast-paced Agile environments.",
+  "social": {
+    "linkedin": "#",
+    "github": "#",
+    "email": "rashiwork17@gmail.com",
+    "phone": "+91 8302741699"
+  },
+  "experience": [
+    {
+      "id": "exp-1",
+      "role": "Associate AI Engineer",
+      "company": "Cambridge Technology",
+      "location": "Hyderabad",
+      "start": "Jun 2025",
+      "end": "Present",
+      "bullets": [
+        "Designed the validation workflow to combine deterministic rules and AI-based semantic comparisons, using code for structured checks and AI models for ambiguous product and content comparisons in Digital Shelf Compliance.",
+        "Automated large-scale validation using Playwright, replacing a manual process that would take significant time to validate hundreds of products across multiple retailers; AI-assisted analysis to review validation accuracy.",
+        "Architected and deployed end-to-end agentic AI systems using Amazon Bedrock, implementing custom guardrails, prompt workflows, and real-time API-driven tool invocations; evaluated system behavior using golden query datasets.",
+        "Built cloud-native data and API workflows using AWS Lambda, S3, API Gateway, and CloudFront, supporting scalable data processing and application delivery."
+      ]
+    },
+    {
+      "id": "exp-2",
+      "role": "Software Developer",
+      "company": "SkilledSpeech (Remote)",
+      "location": "Remote",
+      "start": "Jan 2026",
+      "end": "Jun 2026",
+      "bullets": [
+        "Spearheaded development of a React Native mobile application, managing cross-platform frontend-to-backend.",
+        "Engineered background service communication logic by integrating push/email notification architectures via Firebase/GCP and worked on various other features."
+      ]
+    },
+    {
+      "id": "exp-3",
+      "role": "Software Engineering Intern (GenAI Systems)",
+      "company": "FutureSmartAI",
+      "location": "Remote",
+      "start": "Mar 2024",
+      "end": "May 2024",
+      "bullets": [
+        "Built end-to-end production pipelines for enterprise document intelligence utilizing LangChain and LlamaIndex.",
+        "Designed an optimized Retrieval-Augmented Generation (RAG) pipeline, configuring a Chroma Vector Database to execute highly efficient, low-latency semantic search queries."
+      ]
+    },
+    {
+      "id": "exp-4",
+      "role": "Research Intern (Mitacs Globalink)",
+      "company": "McMaster University, Canada",
+      "location": "Ontario, Canada",
+      "start": "May 2023",
+      "end": "Jul 2023",
+      "bullets": [
+        "Developed scalable Python pipelines for geophysical predictive modeling and rigorous data validation.",
+        "Automated complex analysis workflows to ensure strict reproducibility and system scalability across large datasets."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "Dark Pattern Buster",
+      "description": "An end-to-end Chrome extension using a fine-tuned RoBERTa classifier to detect dark patterns on ecommerce websites in real time, with live scoring. National Winner, Dark Pattern Buster Hackathon 2023.",
+      "tags": ["RoBERTa", "NLP", "Chrome Extension", "PyTorch"],
+      "liveUrl": "",
+      "githubUrl": "",
+      "image": ""
+    },
+    {
+      "id": "proj-2",
+      "title": "Vessel Trajectory Prediction",
+      "description": "An encoder-decoder LSTM model predicting vessel trajectories and estimating oil usage, reducing simulated collision tracking margins by up to 30%. National Winner, Smart India Hackathon 2023.",
+      "tags": ["LSTM", "Time Series", "Python", "Deep Learning"],
+      "liveUrl": "",
+      "githubUrl": "",
+      "image": ""
+    },
+    {
+      "id": "proj-3",
+      "title": "Doctor Recommendation App",
+      "description": "A multi-factor recommendation engine surfacing the top 3 matching doctors from a plain-English illness description, using TF-IDF and cosine similarity, hosted on AWS. Grand Finalist, Google Girl's Hackathon 2024.",
+      "tags": ["TF-IDF", "Cosine Similarity", "AWS", "NLP"],
+      "liveUrl": "",
+      "githubUrl": "",
+      "image": ""
+    },
+    {
+      "id": "proj-4",
+      "title": "Lunar Crater Detection",
+      "description": "A novel lunar crater detection pipeline with automated bounding-box tuning on a YOLOv11 backbone for crater classification on satellite imagery. KL Chopra Award Nominee, Best Master's Thesis.",
+      "tags": ["YOLOv11", "Computer Vision", "Remote Sensing"],
+      "liveUrl": "",
+      "githubUrl": "",
+      "image": ""
+    }
+  ],
+  "awards": [
+    {
+      "id": "award-1",
+      "title": "National Winner — Dark Pattern Buster Hackathon",
+      "description": "Engineered an end-to-end Chrome extension featuring a fine-tuned RoBERTa classification model with real-time scoring capabilities, detecting dark patterns on ecommerce websites.",
+      "year": "2023"
+    },
+    {
+      "id": "award-2",
+      "title": "National Winner — Smart India Hackathon",
+      "description": "Built an encoder-decoder LSTM model for vessel trajectory predictions and estimation of oil usage, decreasing simulated collision tracking margins by up to 30%.",
+      "year": "2023"
+    },
+    {
+      "id": "award-3",
+      "title": "Grand Finalist — Google Girl's Hackathon",
+      "description": "Developed a multi-factor top-3 medical recommendation doctors application based on illness described in simple English, leveraging TF-IDF and Cosine Similarity, hosted on AWS.",
+      "year": "2024"
+    },
+    {
+      "id": "award-4",
+      "title": "KL Chopra Award Nominee — Best Master's Thesis",
+      "description": "Authored a novel lunar crater detection paradigm using automated pipeline tuning with a YOLOv11 backbone, creating bounding boxes on images to classify craters.",
+      "year": "2025"
+    },
+    {
+      "id": "award-5",
+      "title": "Amazon ML Summer School",
+      "description": "Selected to participate among the top 0.05% of applicants nationwide.",
+      "year": "2023"
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "Indian Institute of Technology, Kharagpur (IIT Kharagpur)",
+      "degree": "Integrated Master's + Bachelor's in Geophysics, Micro-Specialization in AI & Machine Learning (NLP, Deep Learning, Statistics for ML)",
+      "years": "2020 – 2025",
+      "gpa": "8.36 / 10.0",
+      "detail": "Micro-Specialization: Artificial Intelligence & Machine Learning (NLP, Deep Learning, Statistics for ML)"
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill-1",
+      "category": "AI Tools",
+      "items": ["Claude", "Cursor", "Windsurf", "Antigravity", "Copilot"]
+    },
+    {
+      "id": "skill-2",
+      "category": "Languages & Core",
+      "items": ["Python", "C++", "JavaScript", "SQL", "OOP", "Data Structures & Algorithms"]
+    },
+    {
+      "id": "skill-3",
+      "category": "Frameworks & Cloud",
+      "items": ["React", "React Native", ".NET (C#)", "Node.js", "AWS (S3, Lambda, API Gateway)", "Docker", "Redis"]
+    },
+    {
+      "id": "skill-4",
+      "category": "Methodologies & Tools",
+      "items": ["Agile Scrum", "Git", "RESTful API Design (3-Layer Architecture)"]
+    }
+  ]
+}
