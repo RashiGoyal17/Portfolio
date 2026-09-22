@@ -22,21 +22,20 @@ export default function Hero({ content }: { content: PortfolioContent }) {
         <div className="animate-fade-up mt-10 flex flex-wrap gap-4">
           <a
             href="/resume.pdf"
-            className="rounded-lg bg-accent px-5 py-3 text-sm font-semibold text-background transition-transform hover:scale-[1.03]"
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-solid rounded-lg px-5 py-3 text-sm font-semibold"
           >
             View Resume
           </a>
-          <Link
-            href="/contact"
-            className="rounded-lg border border-border px-5 py-3 text-sm font-semibold hover:border-accent transition-colors"
-          >
+          <Link href="/contact" className="btn btn-outline rounded-lg px-5 py-3 text-sm font-semibold">
             Contact
           </Link>
           <a
             href={content.social.github}
             target="_blank"
             rel="noreferrer"
-            className="rounded-lg border border-border px-5 py-3 text-sm font-semibold hover:border-accent transition-colors"
+            className="btn btn-outline rounded-lg px-5 py-3 text-sm font-semibold"
           >
             GitHub
           </a>
@@ -44,7 +43,7 @@ export default function Hero({ content }: { content: PortfolioContent }) {
             href={content.social.linkedin}
             target="_blank"
             rel="noreferrer"
-            className="rounded-lg border border-border px-5 py-3 text-sm font-semibold hover:border-accent transition-colors"
+            className="btn btn-outline rounded-lg px-5 py-3 text-sm font-semibold"
           >
             LinkedIn
           </a>
@@ -53,7 +52,7 @@ export default function Hero({ content }: { content: PortfolioContent }) {
               href={content.social.leetcode}
               target="_blank"
               rel="noreferrer"
-              className="rounded-lg border border-border px-5 py-3 text-sm font-semibold hover:border-accent transition-colors"
+              className="btn btn-outline rounded-lg px-5 py-3 text-sm font-semibold"
             >
               LeetCode
             </a>
@@ -63,7 +62,7 @@ export default function Hero({ content }: { content: PortfolioContent }) {
               href={content.social.atcoder}
               target="_blank"
               rel="noreferrer"
-              className="rounded-lg border border-border px-5 py-3 text-sm font-semibold hover:border-accent transition-colors"
+              className="btn btn-outline rounded-lg px-5 py-3 text-sm font-semibold"
             >
               AtCoder
             </a>

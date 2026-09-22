@@ -342,7 +342,7 @@ export default function AdminEditor({ initialContent }: { initialContent: Portfo
             type="button"
             onClick={handleSave}
             disabled={saving}
-            className="rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-background disabled:opacity-60"
+            className="btn btn-solid rounded-lg px-5 py-2.5 text-sm font-semibold disabled:opacity-60"
           >
             {saving ? "Saving…" : "Save Changes"}
           </button>

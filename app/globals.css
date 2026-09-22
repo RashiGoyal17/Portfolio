@@ -86,3 +86,66 @@ h1, h2, h3, h4, h5, h6 {
 .animate-fade-up {
   animation: fade-up 0.6s ease-out both;
 }
+
+/* Buttons: background "fills" outward from center on hover, and presses down on click. */
+.btn {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  transform: scale(0);
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.btn:hover {
+  transform: translateY(-2px) scale(1.035);
+}
+
+.btn:active {
+  transform: translateY(0) scale(0.97);
+  transition-duration: 0.1s;
+}
+
+.btn-solid {
+  background: var(--accent);
+  color: var(--background);
+}
+
+.btn-solid::before {
+  background: var(--accent-2);
+}
+
+.btn-solid:hover {
+  box-shadow: 0 8px 24px -8px color-mix(in srgb, var(--accent) 60%, transparent);
+}
+
+.btn-solid:hover::before {
+  transform: scale(1);
+}
+
+.btn-outline {
+  border: 1px solid var(--border);
+  background: transparent;
+}
+
+.btn-outline::before {
+  background: var(--accent);
+  opacity: 0.1;
+}
+
+.btn-outline:hover {
+  border-color: var(--accent);
+  box-shadow: 0 8px 24px -12px color-mix(in srgb, var(--accent) 45%, transparent);
+}
+
+.btn-outline:hover::before {
+  transform: scale(1);
+}
